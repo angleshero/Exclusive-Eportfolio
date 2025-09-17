@@ -80,6 +80,7 @@ section {
 
 .social__list {
 margin-top: 16px;
+display: flex;
 
 }
 
