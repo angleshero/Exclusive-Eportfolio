@@ -3,7 +3,7 @@
 //I2MhMNPK4zmqBk9ul
 
 function contact(event) {
-    .preventDefault();
+    event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading')
       const success = document.querySelector('.modal__overlay--sucess')
     emailjs
