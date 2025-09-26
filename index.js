@@ -8,8 +8,8 @@ function contact(event) {
       const success = document.querySelector('.modal__overlay--sucess')
     emailjs
        .sendForm(
-             'service_00mf36u',
-             'template_trn1jkn',
+             'service_h1axg39',
+             'template_s3chdi9',
               event.target,
               'I2MhMNPK4zmqBk9ul'
         ).then(() => {
