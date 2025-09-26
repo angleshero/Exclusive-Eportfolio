@@ -9,7 +9,7 @@ function contact(event) {
     emailjs
        .sendForm(
              'service_h1axg39',
-             'template_s3chdi9',
+             'template_trn1jkn',
               event.target,
               'I2MhMNPK4zmqBk9ul'
         ).then(() => {
