@@ -504,6 +504,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
+}
+
+.modal__overlay--visible {
+    z-index: 1;
 }
 
 .modal__overlay--loading {
@@ -518,6 +523,7 @@ footer {
     font-weight: 700;
     text-align: center;
     padding: 28px;
+    
 }
 
 .fa-spinner {
