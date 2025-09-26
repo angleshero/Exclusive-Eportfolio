@@ -1,5 +1,5 @@
 // template_trn1jkn
-// service_h1axg39
+// service_oomf36u
 //I2MhMNPK4zmqBk9ul
 
 function contact(event) {
@@ -8,7 +8,7 @@ function contact(event) {
       const success = document.querySelector('.modal__overlay--sucess')
     emailjs
        .sendForm(
-             'service_h1axg39',
+             'service_00mf36u',
              'template_trn1jkn',
               event.target,
               'I2MhMNPK4zmqBk9ul'
